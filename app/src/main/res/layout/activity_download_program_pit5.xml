@@ -1,0 +1,333 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".DownloadProgramPit5">
+
+    <ImageView
+        android:id="@+id/imageView53"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:scaleType="fitXY"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/backgroundselecttrener" />
+
+    <ImageButton
+        android:id="@+id/imageButton165"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="8dp"
+        android:layout_marginEnd="8dp"
+        android:layout_marginRight="8dp"
+        android:background="?android:attr/selectableItemBackground"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/backtoprofile" />
+
+    <ImageView
+        android:id="@+id/imageView54"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="8dp"
+        android:layout_marginLeft="8dp"
+        android:layout_marginTop="8dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/pitaniyewhite"
+/>
+
+    <TableRow
+        android:id="@+id/tableRow2"
+        android:layout_width="0dp"
+        android:layout_height="45dp"
+        android:layout_marginStart="10dp"
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="25dp"
+        android:layout_marginEnd="10dp"
+        android:layout_marginRight="10dp"
+        android:layout_weight="1"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/imageView54">
+
+        <ImageButton
+            android:id="@+id/monday5"
+            android:layout_width="40dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:background="?android:attr/selectableItemBackground"
+            app:srcCompat="@drawable/pn0" />
+
+        <ImageButton
+            android:id="@+id/tuesday5"
+            android:layout_width="40dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:background="?android:attr/selectableItemBackground"
+            app:srcCompat="@drawable/wtornik0" />
+
+        <ImageButton
+            android:id="@+id/imageButton20"
+            android:layout_width="40dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:background="?android:attr/selectableItemBackground"
+            app:srcCompat="@drawable/cred0" />
+
+        <ImageButton
+            android:id="@+id/imageButton19"
+            android:layout_width="40dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:background="?android:attr/selectableItemBackground"
+            app:srcCompat="@drawable/chet" />
+
+        <ImageView
+            android:id="@+id/imageButton18"
+            android:layout_width="45dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:background="?android:attr/selectableItemBackground"
+            app:srcCompat="@drawable/pt1" />
+
+        <ImageButton
+            android:id="@+id/imageButton17"
+            android:layout_width="40dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:background="?android:attr/selectableItemBackground"
+            app:srcCompat="@drawable/cb0" />
+
+        <ImageButton
+            android:id="@+id/sunday5"
+            android:layout_width="40dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:background="?android:attr/selectableItemBackground"
+            app:srcCompat="@drawable/vsk0" />
+    </TableRow>
+
+    <View
+        android:id="@+id/view2"
+        android:layout_width="300dp"
+        android:layout_height="540dp"
+        android:layout_marginTop="15dp"
+        android:background="@drawable/shablonosnova"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/tableRow2"
+        app:srcCompat="@drawable/shablonosnova" />
+
+    <ImageView
+        android:id="@+id/imageView73"
+        android:layout_width="286dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="15dp"
+        app:layout_constraintEnd_toEndOf="@+id/view2"
+        app:layout_constraintStart_toStartOf="@+id/view2"
+        app:layout_constraintTop_toBottomOf="@+id/tableRow2"
+        app:srcCompat="@drawable/listcalend" />
+
+    <ImageButton
+        android:id="@+id/btn_addeat"
+        android:layout_width="250dp"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="15dp"
+        android:background="?android:attr/selectableItemBackground"
+        app:layout_constraintBottom_toBottomOf="@+id/view2"
+        app:layout_constraintEnd_toEndOf="@+id/view2"
+        app:layout_constraintStart_toStartOf="@+id/view2"
+        app:srcCompat="@drawable/addeat"
+
+        />
+
+    <ScrollView
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginLeft="8dp"
+        android:layout_marginEnd="10dp"
+        android:layout_marginRight="10dp"
+        android:layout_marginBottom="4dp"
+        android:background="@android:color/white"
+        app:layout_constraintBottom_toTopOf="@+id/btn_addeat"
+        app:layout_constraintEnd_toEndOf="@+id/view2"
+        app:layout_constraintStart_toStartOf="@+id/view2"
+        app:layout_constraintTop_toBottomOf="@+id/imageView73">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+
+            android:background="@android:color/white"
+            android:orientation="vertical">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+
+
+                android:background="@android:color/white"
+                android:orientation="vertical">
+
+                <ImageView
+                    android:id="@+id/imageView49"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="4dp"
+                    android:layout_marginTop="4dp"
+                    app:srcCompat="@drawable/eat1" />
+
+                <EditText
+                    android:id="@+id/eat1txt"
+                    android:layout_width="270dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="7dp"
+                    android:layout_marginTop="2dp"
+                    android:background="@drawable/qwesx"
+                    android:ems="10"
+                    android:gravity="start|top"
+                    android:inputType="textMultiLine"
+                    android:textColor="@android:color/black" />
+
+                <ImageView
+                    android:id="@+id/imagee"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="4dp"
+                    android:layout_marginTop="14dp"
+                    app:srcCompat="@drawable/eat2" />
+
+                <EditText
+                    android:id="@+id/eat2txt"
+                    android:layout_width="270dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="7dp"
+                    android:layout_marginTop="2dp"
+                    android:background="@drawable/qwesx"
+                    android:ems="10"
+                    android:gravity="start|top"
+                    android:inputType="textMultiLine"
+                    android:textColor="@android:color/black" />
+
+                <ImageView
+                    android:id="@+id/imageee"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="4dp"
+                    android:layout_marginTop="14dp"
+                    app:srcCompat="@drawable/eat3" />
+
+                <EditText
+                    android:id="@+id/eat3txt"
+                    android:layout_width="270dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="7dp"
+                    android:layout_marginTop="2dp"
+                    android:background="@drawable/qwesx"
+                    android:ems="10"
+                    android:gravity="start|top"
+                    android:inputType="textMultiLine"
+                    android:textColor="@android:color/black" />
+
+                <ImageView
+                    android:id="@+id/imageView65"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="4dp"
+                    android:layout_marginTop="14dp"
+                    app:srcCompat="@drawable/eat4" />
+
+                <EditText
+                    android:id="@+id/eat4txt"
+                    android:layout_width="270dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="7dp"
+                    android:layout_marginTop="2dp"
+                    android:background="@drawable/qwesx"
+                    android:ems="10"
+                    android:gravity="start|top"
+                    android:inputType="textMultiLine"
+                    android:textColor="@android:color/black" />
+
+                <ImageView
+                    android:id="@+id/imageView66"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="4dp"
+                    android:layout_marginTop="14dp"
+                    app:srcCompat="@drawable/eat5" />
+
+                <EditText
+                    android:id="@+id/eat5txt"
+                    android:layout_width="270dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="7dp"
+                    android:layout_marginTop="2dp"
+                    android:background="@drawable/qwesx"
+                    android:ems="10"
+                    android:gravity="start|top"
+                    android:inputType="textMultiLine"
+                    android:textColor="@android:color/black" />
+
+                <ImageView
+                    android:id="@+id/imageView599"
+                    android:layout_width="match_parent"
+                    android:layout_height="100dp"
+                    android:scaleType="fitXY"
+                    app:srcCompat="@android:color/white" />
+
+            </LinearLayout>
+        </LinearLayout>
+    </ScrollView>
+
+    <TableRow
+        android:layout_width="0dp"
+        android:layout_height="40dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent">
+
+        <ImageButton
+            android:id="@+id/Clienti5"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            app:layout_constraintBottom_toBottomOf="parent"
+            android:background="?android:attr/selectableItemBackground"
+            app:layout_constraintStart_toStartOf="parent"
+            android:layout_weight="1"
+            android:gravity="bottom|left"
+            app:srcCompat="@drawable/groupclient" />
+
+        <ImageButton
+            android:layout_width="wrap_content"
+            android:id="@+id/btn_profileClient5"
+            android:layout_height="wrap_content"
+            app:layout_constraintBottom_toBottomOf="parent"
+            android:layout_weight="1"
+            android:gravity="bottom|center"
+            android:background="?android:attr/selectableItemBackground"
+            app:layout_constraintStart_toEndOf="@+id/Clienti5"
+            app:srcCompat="@drawable/groupprofile" />
+
+        <ImageButton
+            android:id="@+id/groupchat5"
+            android:layout_width="wrap_content"
+            android:layout_height="40dp"
+            android:background="?android:attr/selectableItemBackground"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            android:layout_weight="1"
+            android:gravity="bottom|right"
+            app:layout_constraintStart_toEndOf="@+id/btn_profileClient5"
+            app:srcCompat="@drawable/groupchat" />
+    </TableRow>
+</androidx.constraintlayout.widget.ConstraintLayout>

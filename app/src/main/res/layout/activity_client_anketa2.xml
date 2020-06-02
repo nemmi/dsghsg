@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/backclientsanketa2">
+
+    <ScrollView
+        android:layout_width="358dp"
+        android:layout_height="677dp"
+        android:layout_centerHorizontal="true"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.491"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/topAnketa">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <ImageView
+                android:id="@+id/imageView4"
+                android:layout_width="match_parent"
+                android:layout_height="63dp"
+                android:layout_marginBottom="10dp"
+                android:src="@drawable/pos3" />
+
+            <ImageView
+                android:id="@+id/imageView1"
+                android:layout_width="match_parent"
+                android:layout_height="142dp"
+                android:layout_marginBottom="10dp"
+                android:src="@drawable/belok" />
+
+            <EditText
+                android:id="@+id/editBelok"
+                android:layout_width="match_parent"
+                android:layout_height="49dp"
+                android:layout_marginBottom="15dp"
+                android:background="@drawable/field"
+                android:ems="20"
+                android:hint="Индейка, яйцо, творог"
+                android:inputType="textLongMessage"
+                android:paddingStart="25dp"
+                android:textColor="#FFFFFF"
+                android:textColorHint="#FFFFFF" />
+
+            <ImageView
+                android:id="@+id/imageView2"
+                android:layout_width="360dp"
+                android:layout_height="138dp"
+                android:layout_marginBottom="10dp"
+                android:src="@drawable/carbs" />
+
+            <EditText
+                android:id="@+id/editCarbs"
+                android:layout_width="350dp"
+                android:layout_height="60dp"
+                android:layout_marginBottom="15dp"
+                android:background="@drawable/field"
+                android:hint="Рис, зефир, фрукты"
+                android:inputType="textLongMessage"
+                android:paddingStart="25dp"
+                android:textColor="#FFFFFF"
+                android:textColorHint="#FFFFFF" />
+
+            <ImageView
+                android:id="@+id/imageView3"
+                android:layout_width="match_parent"
+                android:layout_height="143dp"
+                android:layout_marginBottom="10dp"
+                android:src="@drawable/fats" />
+
+            <EditText
+                android:id="@+id/editFats"
+                android:layout_width="350dp"
+                android:layout_height="60dp"
+                android:layout_marginBottom="15dp"
+                android:background="@drawable/field"
+                android:hint="Орехи, авокадо, сыр"
+                android:inputType="textLongMessage"
+                android:paddingStart="25dp"
+                android:textColor="#FFFFFF"
+                android:textColorHint="#FFFFFF" />
+
+            <ImageButton
+                android:layout_width="350dp"
+                android:layout_height="60dp"
+                android:layout_marginBottom="15dp"
+                android:src="@drawable/buttonchooseyourmaster" />
+        </LinearLayout>
+    </ScrollView>
+
+    <Button
+        android:id="@+id/topAnketa"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/topclientsanketa"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+</androidx.constraintlayout.widget.ConstraintLayout>

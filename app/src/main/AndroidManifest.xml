@@ -1,0 +1,125 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.myapplication">
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.AppCompat.NoActionBar">
+        <activity android:name=".SelectTrenerNotReg"></activity>
+        <activity android:name=".TrenerVidClient"
+            android:screenOrientation="locked"
+            android:windowSoftInputMode="stateHidden"/>
+        <activity
+            android:name=".ProfileTrenerView"
+            android:screenOrientation="locked"
+            android:windowSoftInputMode="stateHidden" />
+        <activity
+            android:name=".OtchetPitanie7"
+            android:screenOrientation="locked"
+            android:windowSoftInputMode="stateHidden" />
+        <activity
+            android:name=".OtchetPitanie6"
+            android:screenOrientation="locked"
+            android:windowSoftInputMode="stateHidden" />
+        <activity
+            android:name=".OtchetPitanie5"
+            android:screenOrientation="locked"
+            android:windowSoftInputMode="stateHidden" />
+        <activity
+            android:name=".OtchetPitanie4"
+            android:screenOrientation="locked"
+            android:windowSoftInputMode="stateHidden" />
+        <activity
+            android:name=".OtchetPitanie3"
+            android:screenOrientation="locked"
+            android:windowSoftInputMode="stateHidden" />
+        <activity
+            android:name=".OtchetPitanie2"
+            android:screenOrientation="locked"
+            android:windowSoftInputMode="stateHidden" />
+        <activity
+            android:name=".ListClient"
+            android:screenOrientation="locked"
+            android:windowSoftInputMode="stateHidden" />
+        <activity
+            android:name=".TrenerSelectClientView"
+            android:screenOrientation="locked"
+            android:windowSoftInputMode="stateHidden" />
+        <activity
+            android:name=".SpisocChatov"
+            android:screenOrientation="locked"
+            android:windowSoftInputMode="stateHidden" />
+        <activity
+            android:name=".DownloadProgramPit2"
+            android:screenOrientation="locked"
+            android:windowSoftInputMode="stateHidden" />
+        <activity
+            android:name=".OtchetPitanie"
+            android:screenOrientation="locked"
+            android:windowSoftInputMode="stateHidden" />
+        <activity
+            android:name=".DownloadProgramPit7"
+            android:screenOrientation="locked"
+            android:windowSoftInputMode="stateHidden" />
+        <activity
+            android:name=".DownloadProgramPit6"
+            android:screenOrientation="locked"
+            android:windowSoftInputMode="stateHidden" />
+        <activity
+            android:name=".DownloadProgramPit5"
+            android:screenOrientation="locked"
+            android:windowSoftInputMode="stateHidden" />
+        <activity
+            android:name=".DownloadProgramPit4"
+            android:screenOrientation="locked"
+            android:windowSoftInputMode="stateHidden" />
+        <activity
+            android:name=".DownloadProgramPit3"
+            android:screenOrientation="locked"
+            android:windowSoftInputMode="stateHidden" />
+
+        <activity
+            android:name=".MainActivity"
+            android:screenOrientation="locked"
+            android:windowSoftInputMode="stateHidden" />
+        <activity
+            android:name=".SelectTrener"
+            android:screenOrientation="locked"
+            android:windowSoftInputMode="stateHidden" />
+        <activity
+            android:name=".ProfileClientView"
+            android:screenOrientation="locked"
+            android:windowSoftInputMode="stateHidden" />
+        <activity
+            android:name=".RedactorTrener"
+            android:screenOrientation="locked"
+            android:windowSoftInputMode="stateHidden" />
+        <activity
+            android:name=".ProfileTrener"
+            android:screenOrientation="locked"
+            android:windowSoftInputMode="stateHidden" />
+        <activity
+            android:name=".RedactorClient"
+            android:screenOrientation="locked"
+            android:windowSoftInputMode="stateHidden" />
+        <activity
+            android:name=".ProfileClient"
+            android:screenOrientation="locked"
+            android:windowSoftInputMode="stateHidden" />
+        <activity
+            android:name=".DownloadProgramPit"
+            android:screenOrientation="locked"
+            android:windowSoftInputMode="stateHidden">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+    </application>
+
+</manifest>
